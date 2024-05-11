@@ -1,0 +1,71 @@
+.anouncementSection {
+  background-color: #000000;
+  padding-top: 1rem;
+}
+
+.anouncementContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 3.3rem;
+  font-weight: 600;
+  line-height: 77.45px;
+}
+
+.text {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: center;
+  max-width: 60%;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+}
+
+.tokenEligibility {
+  width: 80%;
+  margin-top: 2rem;
+  background: #000000;
+  box-shadow: 0px 0px 4px 4px rgba(246, 204, 172, 0.1);
+  border-radius: 18px;
+  padding: 0.8rem 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tokenEligibility > * + * {
+  margin-top: 1rem;
+}
+
+span {
+  background-color: #fee9d933;
+  color: #fa9344;
+  padding: 0.3rem;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 765px) {
+  .tokenEligibility{
+    width: 100%;
+  }
+  .title {
+    font-size: 2rem;
+    line-height: 47.45px;
+  }
+
+  .text {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+}
