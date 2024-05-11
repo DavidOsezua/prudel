@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Claim.module.css";
 import { loading, logo } from "../assets";
 import { Fade } from "react-awesome-reveal";
