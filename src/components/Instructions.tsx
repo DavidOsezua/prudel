@@ -9,7 +9,7 @@ const Instructions = () => {
           <h1 className={styles.title}>
             Airdrop Amount: <span>100,000,000,000</span> PUDEL
           </h1>
-          <span className={styles.title}> ( $100,000,000,000 USD)</span>
+          <span className={styles.title}> ( $7,000,000 USD)</span>
 
           <p className={styles.text}>
             Only holders of this airdrop tokens will be to take part in it.
